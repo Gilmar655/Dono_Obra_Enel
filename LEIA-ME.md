@@ -59,3 +59,8 @@ DELI vencido significa data anterior à referência. DELI em até 15 dias inclui
 index.html (página), styles.css (aparência), app.js (funcionalidades), data.js (base e abas), Base_Original.xlsx (arquivo original), .nojekyll (publicação estática), vendor/xlsx.full.min.js e vendor/LICENSE-SheetJS.txt (SheetJS 0.20.3 e licença), CONFERENCIA.md e LEIA-ME.md (documentação).
 
 Documentação SheetJS: https://docs.sheetjs.com/docs/
+
+
+## Atualização de 22/09/2026 — lista visível
+
+A lista de obras fica logo abaixo dos filtros, em formato de planilha, em todas as seções. As 17 colunas são preservadas, com cabeçalho fixo, rolagem horizontal e vertical, ordenação e opção de mostrar todas as obras filtradas. Os botões Excel da seleção e CSV da seleção exportam todos os resultados filtrados, independentemente da página exibida. A dependência xlsx.full.min.js é carregada da raiz do repositório.
