@@ -1,6 +1,6 @@
 # Dono da Obra — publicação e uso
 
-Site pronto para GitHub Pages, com dados do arquivo Dono_Obra_Site_21_09-_2026.xlsx. Nenhuma instalação ou compilação é necessária. Os arquivos JavaScript necessários estão no pacote; o site também funciona abrindo index.html no computador.
+Site pronto para GitHub Pages, com dados do arquivo Dono_Obra_outubro.xlsx. Nenhuma instalação ou compilação é necessária. Os arquivos JavaScript necessários estão no pacote; o site também funciona abrindo index.html no computador.
 
 ## Publicar no GitHub Pages
 
@@ -20,9 +20,9 @@ Referência oficial: https://docs.github.com/en/pages/getting-started-with-githu
 - **Visão geral:** indicadores, distribuição por polo, empreiteira, família e programação mensal. Os gráficos de barras permitem aplicar filtros por clique.
 - **Base de projetos:** todos os 17 campos, pesquisa, ordenação, paginação e detalhes por projeto.
 - **Técnicos:** quantidade, UPS, programação e DELI vencido por responsável, incluindo os não definidos.
-- **Conferência:** qualidade da seleção e achados da conferência das seis abas originais. Os achados do arquivo original são fixos e identificados como análise da base completa; os indicadores de qualidade respondem aos filtros.
+- **Conferência:** qualidade da seleção e achados da conferência das aba original. Os achados do arquivo original são fixos e identificados como análise da base completa; os indicadores de qualidade respondem aos filtros.
 - **Abas do Excel:** conteúdo de todas as abas, com linhas numeradas e fórmulas em dicas ao passar o cursor. São os valores armazenados no arquivo, sem execução das fórmulas. Formatação e gráficos originais ficam disponíveis no Excel original.
-- **Relógio:** atualizado a cada segundo, no fuso de Brasília, usando o relógio do dispositivo. A data de referência dos prazos é independente do relógio e começa em 21/09/2026.
+- **Relógio:** atualizado a cada segundo, no fuso de Brasília, usando o relógio do dispositivo. A data de referência dos prazos é independente do relógio e começa em 03/10/2026.
 
 ## Importar Excel ou CSV
 
@@ -41,7 +41,7 @@ CSV exportado pelo painel usa UTF-8 com BOM e separador ponto e vírgula. Ao imp
 3. Substitua **data.js** na raiz do repositório por esse arquivo e salve em Commit changes.
 4. Aguarde a atualização do GitHub Pages e atualize a página.
 
-O botão de Excel original sempre baixa o arquivo de 21/09/2026 incluído neste pacote. A nova importação não substitui esse arquivo automaticamente. As abas da base importada são incorporadas ao novo data.js.
+O botão de Excel original sempre baixa o arquivo de 03/10/2026 incluído neste pacote. A nova importação não substitui esse arquivo automaticamente. As abas da base importada são incorporadas ao novo data.js.
 
 ## Exportar
 
@@ -56,7 +56,7 @@ DELI vencido significa data anterior à referência. DELI em até 15 dias inclui
 
 ## Arquivos
 
-index.html (página), styles.css (aparência), app.js (funcionalidades), data.js (base e abas), Base_Original.xlsx (arquivo original), .nojekyll (publicação estática), vendor/xlsx.full.min.js e vendor/LICENSE-SheetJS.txt (SheetJS 0.20.3 e licença), CONFERENCIA.md e LEIA-ME.md (documentação).
+index.html (página), styles.css (aparência), app.js (funcionalidades), data.js (base e abas), Base_Original.xlsx (arquivo original), .nojekyll (publicação estática), xlsx.full.min.js e LICENSE-SheetJS.txt (SheetJS 0.20.3 e licença), CONFERENCIA.md e LEIA-ME.md (documentação).
 
 Documentação SheetJS: https://docs.sheetjs.com/docs/
 
@@ -64,3 +64,8 @@ Documentação SheetJS: https://docs.sheetjs.com/docs/
 ## Atualização de 22/09/2026 — lista visível
 
 A lista de obras fica logo abaixo dos filtros, em formato de planilha, em todas as seções. As 17 colunas são preservadas, com cabeçalho fixo, rolagem horizontal e vertical, ordenação e opção de mostrar todas as obras filtradas. Os botões Excel da seleção e CSV da seleção exportam todos os resultados filtrados, independentemente da página exibida. A dependência xlsx.full.min.js é carregada da raiz do repositório.
+
+
+## Base publicada em 03/10/2026
+
+5.455 obras, 17 colunas, 1 aba (Planilha1), 311 datas de programação. A lista permanece visível logo abaixo dos filtros e acompanha qualquer seleção. A opção Todas as obras filtradas mostra a seleção inteira. Exportações abrangem todas as páginas. As datas textuais inequívocas mês/dia/ano são aceitas, além de dd/mm/aaaa, ISO e células de data nativas. Linhas contendo somente espaços são ignoradas na lista de obras e preservadas na aba de origem.
